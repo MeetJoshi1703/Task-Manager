@@ -5,7 +5,6 @@ import { toast } from "react-toastify";
 import axios from 'axios'
 import {URL} from '../App'
 import loadingImage from "../assets/loader.gif"
-import { set } from "mongoose";
 
 export default function TaskList(){
     const [isEditing, setIsEditing] = useState(false)
